@@ -1,10 +1,10 @@
-Sal's Physical and Digial Aracde
+## Sal's Physical and Digial Aracde
 This is a website for a gaming business.
 
-How to use
+## How to use
 Simply click on 'First Website' and have it open on your selected web browser.
 
-Change log
+## Change log
 CSS style sheet was applied.
 
 The class .myInfo and ID #myInfo(number) was put on every
@@ -16,9 +16,9 @@ Physical, Digital and Event page added- making 5 total pages.
 
 Event page has a form to submit a name and email.
 
-Future updates
+## Future updates
 I would like to add some Java Script functionality when I learn it!
 
 Over Thanksgiving break I want to mess around with CSS a lot more as I feel my website still has an unpolished look to it. I will take time to reflect on what changes would be best.
 
-Github
+## Github
