@@ -1,0 +1,65 @@
+body {
+    background-image: url("https://storage.needpix.com/rsynced_images/synthwave-3941721_1280.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+.myInfo {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.418);
+}
+.myInfo > fieldset{
+    border-style: ridge;
+    border-color: rgb(187, 16, 187);
+}
+a:link {
+    color: skyblue;
+}
+a:visited {
+    color:rgb(187, 16, 187);
+}
+#myInfo1 > fieldset > img {
+    border-style: ridge;
+    border-color: rgb(187, 16, 187);
+}
+p {
+    font-size: 1.3em;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  border: 1px ridge rgb(187, 16, 187);
+  background-color: rgba(0, 0, 0, 0.575);
+}
+nav li a {
+  display: block;               
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  border-right: 1px solid rgb(187, 16, 187);
+}
+form {
+  max-width: 300px;            
+  margin: 40px auto;           
+  padding: 20px;
+  border: 1px ridge rgb(187, 16, 187);
+  border-radius: 8px;
+  background-color: rgba(0, 0, 0, 0.575);
+}
+label {
+  display: block;
+  margin-top: 10px;
+  color: white;
+}
+input[type="submit"] {
+    cursor: pointer;
+    padding: 5px 10px;
+}
+input[type="submit"]:hover {
+  background-color: rgb(187, 16, 187);
+}
+
+
