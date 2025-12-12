@@ -1,6 +1,8 @@
 ## Sal's Physical and Digial Aracde
 This is a website for a gaming business.
 
+There's a home landing page, home page, physical arcade page, digital arcade page, an event page and a mission page.
+
 ## How to use
 Simply click on 'First Website' and have it open on your selected web browser.
 
@@ -28,3 +30,8 @@ Over Thanksgiving break I want to mess around with CSS a lot more as I feel my w
 ## Github
 
 https://github.com/samhanmer/sals-arcade/tree/main
+
+## Github Pages
+
+https://samhanmer.github.io/sals-arcade/
+
