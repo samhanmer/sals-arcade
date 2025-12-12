@@ -1,31 +1,5 @@
-body {
-    background-image: url("https://storage.needpix.com/rsynced_images/synthwave-3941721_1280.jpg");
-    background-repeat: no-repeat;
-    background-size:cover;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    
-}
-.myInfo {
-    color: white;
-    background-color: rgba(0, 0, 0, 0.418);
-}
-.myInfo > fieldset{
-    border-style: ridge;
-    border-color: rgb(187, 16, 187);
-}
-a:link {
-    color: skyblue;
-}
-a:visited {
-    color:rgb(187, 16, 187);
-}
-#myInfo1 > fieldset > img {
-    border-style: ridge;
-    border-color: rgb(187, 16, 187);
-}
-p {
-    font-size: 1.3em;
-}
+/* Nav Bar*/
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -34,6 +8,7 @@ ul {
   border: 1px ridge rgb(187, 16, 187);
   background-color: rgba(0, 0, 0, 0.575);
 }
+
 nav li a {
   display: block;               
   text-align: center;
@@ -41,23 +16,102 @@ nav li a {
   text-decoration: none;
   border-right: 1px solid rgb(187, 16, 187);
 }
+
+a:link {
+    color: skyblue;
+}
+
+a:visited {
+    color:rgb(187, 16, 187);
+}
+/*Main body of all web pages*/
+
+body {
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+    url("https://storage.needpix.com/rsynced_images/synthwave-3941721_1280.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    min-height: 100vh;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+}
+.myInfo {
+    color: white;
+}
+
+.myInfo > fieldset{
+    border-style: ridge;
+    border-color: rgb(187, 16, 187);
+    width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.img1 {
+    border-style: ridge;
+    border-color: rgb(187, 16, 187);
+}
+
+.myImage1 {
+  padding: 10px;
+  margin: 10px;
+  position: absolute;
+  left: 60px;
+  top: 100px;
+  transform: rotate(-10deg);
+}
+
+.myImage {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  padding: 10px;
+}
+
+p {
+    font-size: 20px;
+}
+
+#greet {
+  padding-right: 5px;
+}
+
+h1{
+  color: rgb(255, 175, 25);
+  font-size: 38px;
+  border-bottom: ridge rgb(255, 175, 25) 1px;
+}
+
+h2 {
+  color: rgb(255, 175, 25);
+  font-size: 34px;
+}
+
+.button {
+  outline: ridge 1px rgb(187, 16, 187);
+  text-decoration: none;
+}
+/*Form sheet*/
+
 form {
   max-width: 300px;            
-  margin: 40px auto;           
+  margin: 15px auto;           
   padding: 20px;
   border: 1px ridge rgb(187, 16, 187);
   border-radius: 8px;
   background-color: rgba(0, 0, 0, 0.575);
 }
+
 label {
   display: block;
   margin-top: 10px;
   color: white;
 }
+
 input[type="submit"] {
     cursor: pointer;
     padding: 5px 10px;
 }
+
 input[type="submit"]:hover {
   background-color: rgb(187, 16, 187);
 }

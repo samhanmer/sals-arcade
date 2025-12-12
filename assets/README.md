@@ -16,6 +16,10 @@ Physical, Digital and Event page added- making 5 total pages.
 
 Event page has a form to submit a name and email.
 
+Backend HTML and CSS was organized cleaner with tutor feedback in mind.
+
+CSS was changed in order to change some visuals due to classmate feedback.
+
 ## Future updates
 I would like to add some Java Script functionality when I learn it!
 
