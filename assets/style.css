@@ -24,6 +24,17 @@ a:link {
 a:visited {
     color:rgb(187, 16, 187);
 }
+nav {
+  display: relative;
+}
+#date {
+    position: absolute;
+    top: 8px;
+    right: 0;
+    padding: 14px 16px;
+    color: rgb(255, 175, 25);
+    font-weight: bold;
+}
 /*Main body of all web pages*/
 
 body {
